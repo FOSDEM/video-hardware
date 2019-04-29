@@ -1,4 +1,10 @@
-The FOSDEM video hardware project is about (checking the viability of) developing a 100% FOSS & open hardware video streaming platform. Some of the inspiration came from the videobrick [0][1] project.
+# FOSDEM Video hardware
+
+The FOSDEM video hardware project is about (checking the viability of) developing a 100% FOSS & open hardware video streaming platform.
+
+It is meant as a successor to the existing FOSDEM video boxes. These are relatively bulky and expensive. We're aiming to build a cheap, compact and lightweight device. That's how we hope to enable sharing of hardware, experience and development with other conferences and projects.
+
+We would like to thank the [videobrick](https://videobrick.wordpress.com/) [project](https://github.com/videobrick) for their inspiration. 
 
 ## Hardware
 ### Mainboard
@@ -16,8 +22,3 @@ The hdmi input gets three destinations:
  * to the lcd for live playback 
  
 The video encoding should be possible using the embedded cedrus vpu. The aac audio encoding will have to be cpu based.
-    
-
-[0] https://videobrick.wordpress.com/
-
-[1] https://github.com/videobrick
