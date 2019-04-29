@@ -2,7 +2,9 @@
 
 The FOSDEM video hardware project is about (checking the viability of) developing a 100% FOSS & open hardware video streaming platform.
 
-It is meant as a successor to the existing FOSDEM video boxes. These are relatively bulky and expensive. We're aiming to build a cheap, compact and lightweight device. That's how we hope to enable sharing of hardware, experience and development with other conferences and projects.
+It is meant as a successor to the existing FOSDEM video boxes. These are relatively bulky and expensive. We're aiming to build a cheap, compact and lightweight device.
+
+We hope to enable a shared platform with other conferences and projects.
 
 We would like to thank the [videobrick](https://videobrick.wordpress.com/) [project](https://github.com/videobrick) for their inspiration. 
 
