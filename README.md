@@ -11,10 +11,10 @@ We would like to thank the [videobrick](https://videobrick.wordpress.com/) [proj
 We're evaluating the [Olimex A20-Olinuxino-Lime2](https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXino-LIME2/) as the main board. It's well supported by the mainline linux kernel, thanks to the efforts of the [linux-sunxi](https://linux-sunxi.org) community.
 
 ### HDMI input
-The A20 does not have HDMI input. We're looking into building a custom HDMI input board based upon the [ADV7611](https://www.analog.com/en/products/adv7611.html).
+The A20 does not have HDMI input. We're looking into building a custom HDMI input board based upon the [ADV7611](https://www.analog.com/en/products/adv7611.html). We push the hdmi to the A20 over csi.
 
 ## Software
-We plan to take in 720p60 hdmi audio & video via csi. 720p60, because that is the most widely supported resolution/refresh rate combination, and perfectly enough for streaming a conference. The Allwinner "csi" is not proper camera serial interface implementation, so that needs some testing.
+We plan to take in 720p60 hdmi audio & video. That is the most widely supported resolution/refresh rate combination. It also hits a sweet spot between video quality and complexity.
 
 The hdmi input gets three destinations:
  * to the projector (with minimal delay!)
