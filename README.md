@@ -11,4 +11,5 @@ The A20 does not have HDMI input. We're looking into building a custom HDMI inpu
 
 
 [0] https://videobrick.wordpress.com/
+
 [1] https://github.com/videobrick
