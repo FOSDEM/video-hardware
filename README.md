@@ -8,7 +8,7 @@ We would like to thank the [videobrick](https://videobrick.wordpress.com/) [proj
 
 ## Hardware
 ### Mainboard
-We're evaluating the [Olimex A20-Olinuxino-Lime2](https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXino-LIME2/) as the main board.
+We're evaluating the [Olimex A20-Olinuxino-Lime2](https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXino-LIME2/) as the main board. It's well supported by the mainline linux kernel, thanks to the efforts of the [linux-sunxi](https://linux-sunxi.org) community.
 
 ### HDMI input
 The A20 does not have HDMI input. We're looking into building a custom HDMI input board based upon the [ADV7611](https://www.analog.com/en/products/adv7611.html).
