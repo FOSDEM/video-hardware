@@ -1,4 +1,4 @@
-The FOSDEM video hardware project is about (checking the viability of) developing a 100% FOSS & open hardware video streaming platform. Some of the inspiration came from the videobrick [0]:https://videobrick.wordpress.com/ [1]:https://github.com/videobrick project.
+The FOSDEM video hardware project is about (checking the viability of) developing a 100% FOSS & open hardware video streaming platform. Some of the inspiration came from the videobrick [0][1] project.
 
 ## Hardware
 ### Mainboard
@@ -10,5 +10,5 @@ The A20 does not have HDMI input. We're looking into building a custom HDMI inpu
 ## Software
 
 
-[0] 
-[1] 
+[0] https://videobrick.wordpress.com/
+[1] https://github.com/videobrick
